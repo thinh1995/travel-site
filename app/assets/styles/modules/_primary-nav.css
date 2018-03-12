@@ -2,7 +2,7 @@
     padding-top: 10px;
 
     @mixin atMedium {
-        padding-top: 0;   
+        padding-top: 0;
     }
 
     &--pull-right {
@@ -49,6 +49,10 @@
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
+
+            &.is-current-link {
+                color: $mainOrange;
+            }
         }
     }
 }
